@@ -1,0 +1,30 @@
+name:                day03
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             BSD3
+license-file:        LICENSE
+author:              Basil
+copyright:           2023 Author name here
+category:            AOC
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable day03
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    GHC2021
+  ghc-options:
+              -Wall
+              -Wcompat
+              -Wincomplete-uni-patterns
+              -Wredundant-constraints
+  build-depends:       base >= 4.7 && < 5
+                     , containers
+                     , parsec
+                     , regex-applicative
+                     , recursion-schemes
+                     , lens
+                     , mtl
+                     , transformers
+                     , QuickCheck
