@@ -20,13 +20,5 @@ executable day04
               -Wincomplete-uni-patterns
               -Wredundant-constraints
   build-depends:       base >= 4.7 && < 5
-                     , containers
-                     , parsec
                      , pureMD5
                      , bytestring
-                     , regex-applicative
-                     , recursion-schemes
-                     , lens
-                     , mtl
-                     , transformers
-                     , QuickCheck
